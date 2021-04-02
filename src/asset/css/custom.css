@@ -1,0 +1,271 @@
+/*
+Content
+------------------
+Default CSS Start
+Common CSS Start
+1.0 Top Nav Component CSS Start
+2.0 Top Banner Component CSS Start
+3.0 Top Category Component CSS Start
+4.0 Image Section Component CSS Start
+*/
+
+
+/*Default CSS Start*/
+*{
+    margin: 0;
+    padding: 0;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+/*Default CSS End*/
+
+/*Common CSS Start*/
+ul{
+    list-style: none;
+}
+li{
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+}
+/*Common CSS Start*/
+
+/*1.0 Top Nav Component CSS Start*/
+.navBar__logo{
+    width: 130px;
+}
+.dropdown-toggle::after{
+    display: none;
+}
+.dropdown-item{
+    background-color: #111111;
+    color: #929292;
+}
+.dropdown-menu {
+    border: none;
+    background-color: transparent;
+}
+.dropdown-divider {
+    border-top: 1px solid #1C1C1C;
+    margin: 0;
+}
+.dropdown-item:hover {
+    background-color: #1C1C1C;
+    color: #ffffff;
+}
+.topNav__socialIcons li{
+    padding: 0 10px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1rem;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #1C1C1C;
+}
+.topNav__items--submitPhotos {
+    border: 1px solid #818181;
+    border-radius: 10px;
+}
+.topNav__items--joinFree {
+    background-color: #E17800;
+    color: #ffffff !important;
+    border-radius: 10px;
+}
+/*1.0 Top Nav Component CSS End*/
+
+/*2.0 Top Banner Component CSS Start*/
+.topBanner__img {
+    background-image: url(./../images/heroImg.png);
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.topBanner__imgOverlay{
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    background: rgba(0,0,0,0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.topBanner__heroArea--title {
+    font-size: 44px;
+    font-weight: 600;
+    color: #ffffff;
+    line-height: 44px;
+    padding: 0 15px;
+}
+.form-control {
+    border-radius: 30px;
+    padding: 20px 20px;
+}
+.text-muted {
+    color: #ffffff !important;
+    padding: 0 15px;
+}
+.topBanner__formField{
+    position: relative;
+}
+.topBanner__searchIcon {
+    background: transparent;
+    border: none;
+    position: absolute;
+    top: 2px;
+    right: 6px;
+    color: #1b1e21;
+}
+.topBanner__searchIcon:hover{
+    background-color: transparent;
+    color: #343017;
+}
+/*2.0 Top Banner Component CSS End*/
+
+/*3.0 Top Category Component CSS Start*/
+.topCategories__section {
+    margin-top: -110px;
+    z-index: 1;
+    position: relative;
+    background-color: #ffffff;
+    padding: 10px;
+}
+.topCategories__featuredImg{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 200px;
+    height: 117px;
+    position: relative;
+}
+.topCategories__featuredImg1{
+    background-image: url("./../images/featuredImg_(5).png");
+}
+.topCategories__featuredImg2{
+    background-image: url("./../images/featuredImg_(1).png");
+}
+.topCategories__featuredImg3{
+    background-image: url("./../images/featuredImg_(2).png");
+}
+.topCategories__featuredImg4{
+    background-image: url("./../images/featuredImg_(4).png");
+}
+.topCategories__featuredImg5{
+    background-image: url("./../images/featuredImg_(3).png");
+}
+.topCategories__featuredImgOverlay{
+    position: absolute;
+    width: 200px;
+    height: 117px;
+    background: rgba(0,0,0,0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slick-next {
+    right: 24px !important;
+}
+.topCategories__title {
+    margin-bottom: 10px;
+    font-size: 26px;
+    font-weight: 400;
+}
+.topCategories__category {
+    color: #ffffff;
+}
+/*3.0 Top Category Component CSS End*/
+
+/*4.0 Image Section Component CSS Start*/
+.portfolio__image{
+    max-width: 100%;
+    margin-top: 5px;
+}
+.apiImg__filteringSection {
+    display: flex;
+    justify-content: space-between;
+}
+.apiImg__filteringMenus ul li{
+    padding-right: 15px;
+}
+.apiImg__filteringMenus ul li a{
+    color: #858585;
+}
+.apiImg__filteringMenus ul li a:hover{
+    color: #333333;
+}
+.apiImg__filteringDropdownBtn {
+    color: #000000;
+    background-color: #ffffff;
+    border: none;
+}
+.apiImg__filteringDropdownBtn:hover{
+    color: #000000;
+    background-color: #ffffff;
+    border: none;
+}
+.apiImg__filteringDropdown--item{
+    color: #929292;
+    text-align: right;
+    background-color: #FFFFFF;
+}
+.apiImg__filteringDropdown--item:hover{
+    background-color: #E8E8E8;
+}
+.portfolio__imageSection{
+    position: relative;
+}
+.apiImg__uploaderImg {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+}
+.apiImg__uploaderName {
+    color: #ffffff;
+    position: absolute;
+    bottom: 13%;
+    left: 23%;
+}
+.portfolio__image--downloadBtn {
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+    color: #1DAF30;
+    background-color: #ffffff;
+    border-radius: 50%;
+    font-size: 35px;
+}
+.portfolio__image--add {
+    position: absolute;
+    top: 5%;
+    right: 7%;
+    color: #CECFCE;
+    background-color: #636363;
+    border-radius: 50%;
+    font-size: 30px;
+}
+.portfolio__image--favorite {
+    position: absolute;
+    top: 5%;
+    right: 18%;
+    color: #636363;
+    background-color: #CECFCE;
+    border-radius: 50%;
+    font-size: 30px;
+    padding: 6px;
+}
+.portfolio__imageHoverItems{
+    opacity: 0;
+}
+.portfolio__imageSection:hover .portfolio__imageHoverItems{
+    opacity: 1;
+    transition: 0.4s;
+}
+.topNav__socialIconsImg {
+    width: 20px;
+}
+/*4.0 Image Section Component CSS End*/
